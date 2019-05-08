@@ -5,6 +5,14 @@
   transition: .5s;
 }
 
+body {
+  background: #FBFBFB;
+  color: #45494E;
+  font-family: "Slabo 27px", serif;
+  padding: 30px;
+  text-align: center;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -28,13 +36,6 @@
   height: 1.5em;
 }
 
-body{
-  background:#FBFBFB;
-  color:#45494E;
-  font-family:"Slabo 27px",serif;
-  padding:30px;
-  text-align:center;
-}
 label{
   color:#45494E;
 }
