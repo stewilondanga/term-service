@@ -119,10 +119,11 @@ path {
   transform: rotate(45deg);
 }
 
-/*#signhere:checked:after,#signhere:checked:before{
-  background-color:orange;
+#signhere:checked:after, #signhere:checked:before {
+  background-color: orange;
 }
-#signhere + label{
+
+/*#signhere + label{
   display:block;
   font-size:.9em;
   font-weight:bold;
