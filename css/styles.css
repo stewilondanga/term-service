@@ -140,11 +140,11 @@ path {
   animation-delay: 2.25s !important;
 }
 
-/*#ligature{
-  animation-delay:4.5s!important;
+#ligature {
+  animation-delay: 4.5s !important;
 }
 
-@keyframes sign{
+/*@keyframes sign{
   0%{
     opacity:.2;
     stroke-dashoffset:1000;
