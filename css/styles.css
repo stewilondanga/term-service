@@ -38,16 +38,16 @@ svg {
   top: 30px;
 }
 
-/*path {
-  opacity:0;
-  fill:none;
-  stroke:#A890FE;
+path {
+  opacity: 0;
+  fill: none;
+  stroke: #A890FE;
   stroke-linecap: round;
-  stroke-dasharray:1000;
-  stroke-width:3;
+  stroke-dasharray: 1000;
+  stroke-width: 3;
 }
 
-#oath{
+/*#oath{
   line-height:1.75em;
   margin:0 auto 70px;
   max-width:500px;
