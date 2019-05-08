@@ -53,14 +53,15 @@ path {
   max-width: 500px;
 }
 
-/*#sign-area{
-  border-bottom:1px solid #45494E;
-  margin:-30px auto -15px;
-  pointer-events:none;
-  position:relative;
-  min-width:230px;
+#sign-area {
+  border-bottom: 1px solid #45494E;
+  margin: -30px auto -15px;
+  pointer-events: none;
+  position: relative;
+  min-width: 230px;
 }
-#sign-area:after{
+
+/*#sign-area:after{
   content:"X";
   position:absolute;
   left:10px;
