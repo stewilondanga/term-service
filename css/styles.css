@@ -61,14 +61,14 @@ path {
   min-width: 230px;
 }
 
-/*#sign-area:after{
-  content:"X";
-  position:absolute;
-  left:10px;
-  bottom:10px;
+#sign-area:after {
+  content: "X";
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
 
-#signhere:checked ~#sign-area svg path{
+/*#signhere:checked ~#sign-area svg path{
   animation:5s sign linear forwards;
 }
 #signhere:not:checked ~#sign-name{
