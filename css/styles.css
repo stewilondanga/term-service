@@ -98,16 +98,17 @@ path {
   transition: 3s 6s;
 }
 
-/*#signhere:after{
-  content:" ";
-  background-color:yellow;
-  height:70px;
-  width:70px;
-  position:absolute;
-  left:0;
-  top:-5px;
+#signhere:after {
+  content: " ";
+  background-color: yellow;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  left: 0;
+  top: -5px;
 }
-#signhere:before{
+
+/*#signhere:before{
   content:" ";
   background-color:yellow;
   position:absolute;
