@@ -160,38 +160,43 @@ path {
   }
 }
 
-/*@media (min-width:500px){
-  #sign-area{
-    width:60%;
+@media (min-width:500px) {
+  #sign-area {
+    width: 60%;
   }
-  #sign-area:after{
-    font-size:2em;
+
+  #sign-area:after {
+    font-size: 2em;
   }
-  #signhere{
-    margin-left:20%;
-    left:-120px;
+
+  #signhere {
+    margin-left: 20%;
+    left: -120px;
   }
-  #signhere:after{
-    height:90px;
-    width:90px;
-    top:-10px;
+
+  #signhere:after {
+    height: 90px;
+    width: 90px;
+    top: -10px;
   }
-  #signhere:before{
-    left:50px;
-    height:70px;
-    top:0;
-    width:70px;
+
+  #signhere:before {
+    left: 50px;
+    height: 70px;
+    top: 0;
+    width: 70px;
   }
-  #signhere+label{
-    margin-left:20%;
-    font-size:1em;
-    padding:0 5px;
-    transform:rotate(-90deg) translateY(-125px);
-    width:70px;
+
+  #signhere+label {
+    margin-left: 20%;
+    font-size: 1em;
+    padding: 0 5px;
+    transform: rotate(-90deg) translateY(-125px);
+    width: 70px;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
