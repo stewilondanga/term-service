@@ -72,10 +72,11 @@ path {
   animation: 5s sign linear forwards;
 }
 
-/*#signhere:not:checked ~#sign-name{
-  transition-delay:0s;
+#signhere:not:checked~#sign-name {
+  transition-delay: 0s;
 }
-#signhere:checked ~#sign-name{
+
+/*#signhere:checked ~#sign-name{
   max-width:200px;
 }
 
