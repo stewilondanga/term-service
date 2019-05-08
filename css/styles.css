@@ -76,11 +76,11 @@ path {
   transition-delay: 0s;
 }
 
-/*#signhere:checked ~#sign-name{
-  max-width:200px;
+#signhere:checked~#sign-name {
+  max-width: 200px;
 }
 
-#signhere{
+/*#signhere{
   cursor:pointer;
   display:block;
   position:relative;
