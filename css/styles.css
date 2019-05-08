@@ -144,21 +144,23 @@ path {
   animation-delay: 4.5s !important;
 }
 
-/*@keyframes sign{
-  0%{
-    opacity:.2;
-    stroke-dashoffset:1000;
+@keyframes sign {
+  0% {
+    opacity: .2;
+    stroke-dashoffset: 1000;
   }
-  90%{
-    opacity:.8;
-    stroke-dashoffset:0;
+
+  90% {
+    opacity: .8;
+    stroke-dashoffset: 0;
   }
-  100%{
-    opacity:.77;
+
+  100% {
+    opacity: .77;
   }
 }
 
-@media (min-width:500px){
+/*@media (min-width:500px){
   #sign-area{
     width:60%;
   }
