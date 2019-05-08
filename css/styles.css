@@ -47,13 +47,13 @@ path {
   stroke-width: 3;
 }
 
-/*#oath{
-  line-height:1.75em;
-  margin:0 auto 70px;
-  max-width:500px;
+#oath {
+  line-height: 1.75em;
+  margin: 0 auto 70px;
+  max-width: 500px;
 }
 
-#sign-area{
+/*#sign-area{
   border-bottom:1px solid #45494E;
   margin:-30px auto -15px;
   pointer-events:none;
