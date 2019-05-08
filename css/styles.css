@@ -88,17 +88,17 @@ path {
   width: 0;
 }
 
-/*#sign-name{
-  display:inline-block;
-  letter-spacing:2px;
-  margin-top:30px;
-  overflow:hidden;
-  white-space:nowrap;
-  max-width:0;
-  transition:3s 6s;
+#sign-name {
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 0;
+  transition: 3s 6s;
 }
 
-#signhere:after{
+/*#signhere:after{
   content:" ";
   background-color:yellow;
   height:70px;
