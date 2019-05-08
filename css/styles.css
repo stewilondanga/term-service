@@ -123,20 +123,20 @@ path {
   background-color: orange;
 }
 
-/*#signhere + label{
-  display:block;
-  font-size:.9em;
-  font-weight:bold;
-  padding:0 5px;
-  position:relative;
-  pointer-events:none;
-  text-align:center;
-  text-transform:uppercase;
-  transform:rotate(-90deg) translateY(-25px) translateX(2.5px);
-  width:60px;
+#signhere+label {
+  display: block;
+  font-size: .9em;
+  font-weight: bold;
+  padding: 0 5px;
+  position: relative;
+  pointer-events: none;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-90deg) translateY(-25px) translateX(2.5px);
+  width: 60px;
 }
 
-#there{
+/*#there{
   animation-delay:2.25s!important;
 }
 #ligature{
