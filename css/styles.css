@@ -28,11 +28,11 @@ body {
   height: 1.5em;
 }
 
-/*label{
-  color:#45494E;
+label {
+  color: #45494E;
 }
 
-svg{
+/*svg{
   margin:0 auto;
   position:relative;
   top:30px;
