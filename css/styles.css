@@ -108,18 +108,18 @@ path {
   top: -5px;
 }
 
-/*#signhere:before{
-  content:" ";
-  background-color:yellow;
-  position:absolute;
-  height:55px;
-  width:55px;
-  left:40px;
-  top:2.5px;
-  transform:rotate(45deg);
+#signhere:before {
+  content: " ";
+  background-color: yellow;
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  left: 40px;
+  top: 2.5px;
+  transform: rotate(45deg);
 }
 
-#signhere:checked:after,#signhere:checked:before{
+/*#signhere:checked:after,#signhere:checked:before{
   background-color:orange;
 }
 #signhere + label{
