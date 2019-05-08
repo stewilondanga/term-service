@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+* {
+  box-sizing: border-box;
+  transition: .5s;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -20,12 +26,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-
-*{
-  box-sizing:border-box;
-  transition:.5s;
 }
 
 body{
