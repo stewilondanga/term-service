@@ -68,10 +68,11 @@ path {
   bottom: 10px;
 }
 
-/*#signhere:checked ~#sign-area svg path{
-  animation:5s sign linear forwards;
+#signhere:checked~#sign-area svg path {
+  animation: 5s sign linear forwards;
 }
-#signhere:not:checked ~#sign-name{
+
+/*#signhere:not:checked ~#sign-name{
   transition-delay:0s;
 }
 #signhere:checked ~#sign-name{
