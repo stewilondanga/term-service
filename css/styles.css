@@ -136,10 +136,11 @@ path {
   width: 60px;
 }
 
-/*#there{
-  animation-delay:2.25s!important;
+#there {
+  animation-delay: 2.25s !important;
 }
-#ligature{
+
+/*#ligature{
   animation-delay:4.5s!important;
 }
 
