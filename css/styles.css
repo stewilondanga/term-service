@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,175 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+*{
+  box-sizing:border-box;
+  transition:.5s;
+}
+
+body{
+  background:#FBFBFB;
+  color:#45494E;
+  font-family:"Slabo 27px",serif;
+  padding:30px;
+  text-align:center;
+}
+label{
+  color:#45494E;
+}
+
+svg{
+  margin:0 auto;
+  position:relative;
+  top:30px;
+}
+
+path {
+  opacity:0;
+  fill:none;
+  stroke:#A890FE;
+  stroke-linecap: round;
+  stroke-dasharray:1000;
+  stroke-width:3;
+}
+
+#oath{
+  line-height:1.75em;
+  margin:0 auto 70px;
+  max-width:500px;
+}
+
+#sign-area{
+  border-bottom:1px solid #45494E;
+  margin:-30px auto -15px;
+  pointer-events:none;
+  position:relative;
+  min-width:230px;
+}
+#sign-area:after{
+  content:"X";
+  position:absolute;
+  left:10px;
+  bottom:10px;
+}
+
+#signhere:checked ~#sign-area svg path{
+  animation:5s sign linear forwards;
+}
+#signhere:not:checked ~#sign-name{
+  transition-delay:0s;
+}
+#signhere:checked ~#sign-name{
+  max-width:200px;
+}
+
+#signhere{
+  cursor:pointer;
+  display:block;
+  position:relative;
+  left:-25px;
+  width:0;
+}
+
+#sign-name{
+  display:inline-block;
+  letter-spacing:2px;
+  margin-top:30px;
+  overflow:hidden;
+  white-space:nowrap;
+  max-width:0;
+  transition:3s 6s;
+}
+
+#signhere:after{
+  content:" ";
+  background-color:yellow;
+  height:70px;
+  width:70px;
+  position:absolute;
+  left:0;
+  top:-5px;
+}
+#signhere:before{
+  content:" ";
+  background-color:yellow;
+  position:absolute;
+  height:55px;
+  width:55px;
+  left:40px;
+  top:2.5px;
+  transform:rotate(45deg);
+}
+
+#signhere:checked:after,#signhere:checked:before{
+  background-color:orange;
+}
+#signhere + label{
+  display:block;
+  font-size:.9em;
+  font-weight:bold;
+  padding:0 5px;
+  position:relative;
+  pointer-events:none;
+  text-align:center;
+  text-transform:uppercase;
+  transform:rotate(-90deg) translateY(-25px) translateX(2.5px);
+  width:60px;
+}
+
+#there{
+  animation-delay:2.25s!important;
+}
+#ligature{
+  animation-delay:4.5s!important;
+}
+
+@keyframes sign{
+  0%{
+    opacity:.2;
+    stroke-dashoffset:1000;
+  }
+  90%{
+    opacity:.8;
+    stroke-dashoffset:0;
+  }
+  100%{
+    opacity:.77;
+  }
+}
+
+@media (min-width:500px){
+  #sign-area{
+    width:60%;
+  }
+  #sign-area:after{
+    font-size:2em;
+  }
+  #signhere{
+    margin-left:20%;
+    left:-120px;
+  }
+  #signhere:after{
+    height:90px;
+    width:90px;
+    top:-10px;
+  }
+  #signhere:before{
+    left:50px;
+    height:70px;
+    top:0;
+    width:70px;
+  }
+  #signhere+label{
+    margin-left:20%;
+    font-size:1em;
+    padding:0 5px;
+    transform:rotate(-90deg) translateY(-125px);
+    width:70px;
+  }
 }
 
 .containers {
