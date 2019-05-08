@@ -32,13 +32,13 @@ label {
   color: #45494E;
 }
 
-/*svg{
-  margin:0 auto;
-  position:relative;
-  top:30px;
+svg {
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
 }
 
-path {
+/*path {
   opacity:0;
   fill:none;
   stroke:#A890FE;
